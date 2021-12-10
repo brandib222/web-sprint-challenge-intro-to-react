@@ -21,7 +21,6 @@ button {
     box-shadow: 0 0 30px;
 }
 `
-
 export default function Character(props) {
 
     return (

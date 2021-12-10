@@ -1,4 +1,4 @@
-import React, { useState, useEffect }from 'react';
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import styled from 'styled-components';
 import './App.css';
@@ -14,7 +14,6 @@ const StyledApp = styled.div
   flex-flow: column wrap;
 }
 `
-
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
   // the state properties here.
